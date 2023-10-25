@@ -14,8 +14,8 @@ NS_ASSUME_NONNULL_BEGIN
 - (BOOL)isZGRNotification:(NSDictionary *)userInfo;
 
 //+ (instancetype)sharedInstance;
-+ (instancetype)new NS_UNAVAILABLE;
-- (instancetype)init NS_UNAVAILABLE;
+//+ (instancetype)new NS_UNAVAILABLE;
+//- (instancetype)init NS_UNAVAILABLE;
 
 @end
 
