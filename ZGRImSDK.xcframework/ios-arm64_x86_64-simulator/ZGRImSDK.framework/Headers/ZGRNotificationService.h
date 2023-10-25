@@ -13,8 +13,7 @@ NS_ASSUME_NONNULL_BEGIN
 - (void)zgr_serviceExtensionTimeWillExpire;
 - (BOOL)isZGRNotification:(NSDictionary *)userInfo;
 
-+ (instancetype)sharedInstance;
-
+//+ (instancetype)sharedInstance;
 + (instancetype)new NS_UNAVAILABLE;
 - (instancetype)init NS_UNAVAILABLE;
 
